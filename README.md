@@ -19,18 +19,6 @@ Cada notebook cubre un concepto fundamental de Python aplicado a preguntas de ne
 
 ---
 
-## 🛠️ Requisitos
-
-- Python 3.8 o superior
-- Jupyter Notebook, JupyterLab o VS Code con la extensión de Python
-
-```bash
-pip install jupyter
-jupyter notebook
-```
-
----
-
 ## 🚀 Orden de lectura
 
 ```
