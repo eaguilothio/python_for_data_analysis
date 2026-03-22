@@ -8,14 +8,39 @@ Cada notebook cubre un concepto fundamental de Python aplicado a preguntas de ne
 
 ## 📁 Contenido
 
-| Archivo | Tema | Qué practicas |
-|---|---|---|
-| `01_variables.ipynb` | Variables y tipos de datos | Tipos, casting, operaciones, comparaciones, limpieza de strings |
-| `02_listas.ipynb` | Listas | Longitud, máximo, mínimo, suma, índices, ordenar, añadir |
-| `03_diccionarios.ipynb` | Diccionarios | Acceder, modificar, añadir, `.get()`, `.items()` |
-| `04_sentencias-control.ipynb` | if / elif / else | Clasificar y etiquetar valores según condiciones de negocio |
-| `05_bucles.ipynb` | Bucles for | Recorrer listas y diccionarios, filtrar y clasificar con `.append()` |
-| `06_funciones.ipynb` | Funciones | Crear funciones, parámetros, valores por defecto, aplicar a listas |
+| Archivo | Tema |
+|---|---|
+| `01_variables.ipynb` | Variables y tipos de datos |
+| `02_listas.ipynb` | Listas |
+| `03_diccionarios.ipynb` | Diccionarios |
+| `04_sentencias-control.ipynb` | if / elif / else |
+| `05_bucles.ipynb` | Bucles for |
+| `06_funciones.ipynb` | Funciones |
+
+---
+
+## 🛠️ Requisitos
+
+- Python 3.8 o superior
+- Jupyter Notebook, JupyterLab o VS Code con la extensión de Python
+
+```bash
+pip install jupyter
+jupyter notebook
+```
+
+---
+
+## 🧠 Por qué este orden
+
+Cada concepto construye sobre el anterior:
+
+- **Variables** — la unidad mínima, guardar un valor
+- **Listas** — guardar varios valores en orden
+- **Diccionarios** — guardar valores con nombre (clave: valor)
+- **Sentencias de control** — tomar decisiones
+- **Bucles** — automatizar tareas repetitivas
+- **Funciones** — reutilizar todo lo anterior sin repetir código
 
 ---
 
