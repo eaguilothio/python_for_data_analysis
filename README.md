@@ -2,7 +2,7 @@
 
 Ejercicios seleccionados por su relevancia directa en análisis de datos.
 
-Cada notebook cubre un concepto fundamental de Python aplicado a preguntas de negocio reales: ventas, empleados, precios, inventario. Sin conceptos que no se usan en datos — no hay `while` (repite código mientras una condición sea verdadera, en análisis de datos siempre recorres una lista o dataset con un número fijo de elementos, para eso usas `for`), ni tuplas (como las listas pero que no se pueden modificar, en datos siempre usas listas), ni sets (colecciones sin duplicados, en datos usas `.unique()`), ni clases (sirven para construir aplicaciones, no para analizar datos).
+Cada notebook cubre un concepto fundamental de Python aplicado a preguntas de negocio reales: ventas, empleados, precios, inventario. Sin conceptos que no se usan en datos — no hay `while` (repite código mientras una condición sea verdadera, en análisis de datos siempre recorres una lista o dataset con un número fijo de elementos, para eso usas `for`), ni tuplas (como las listas pero que no se pueden modificar, en datos siempre usas listas), ni sets (colecciones sin duplicados, en datos usas `drop_duplicates`), ni clases (sirven para construir aplicaciones, no para analizar datos).
 
 ---
 
@@ -16,18 +16,6 @@ Cada notebook cubre un concepto fundamental de Python aplicado a preguntas de ne
 | `04_sentencias-control.ipynb` | if / elif / else |
 | `05_bucles.ipynb` | Bucles for |
 | `06_funciones.ipynb` | Funciones |
-
----
-
-## 🛠️ Requisitos
-
-- Python 3.8 o superior
-- Jupyter Notebook, JupyterLab o VS Code con la extensión de Python
-
-```bash
-pip install jupyter
-jupyter notebook
-```
 
 ---
 
